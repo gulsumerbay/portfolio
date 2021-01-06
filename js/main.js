@@ -337,18 +337,22 @@
 	    animation: "fade",
 	    prevText: "",
 	    nextText: "",
-	    slideshowSpeed: 2000, // speed of slides
-	    animationSpeed: 600,
+	    slideshowSpeed: 8000, // speed of slides
+	    animationSpeed: 8000,
 	    slideshow: true,
 	    directionNav: false,
-	    controlNav: true
+          controlNav: true,
+          after: function (slider) {
+              clearInterval(slider.animatedSlides);
+              slider.animatedSlides = setInterval(slider.animateSlides,6000)
+          },
 	  });
 	  $('.flexslider2').flexslider({
 	    animation: "fade",
 	    prevText: "",
 	    nextText: "",
-	    slideshowSpeed: 2000, // speed of slides
-	    animationSpeed: 600,
+	    slideshowSpeed: 6000, // speed of slides
+	    animationSpeed: 1500,
 	    slideshow: true,
 	    directionNav: false,
 	    controlNav: false
