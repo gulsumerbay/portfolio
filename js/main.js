@@ -474,7 +474,10 @@
       preloader: false,
 
       fixedContentPos: false
-    });
+	});
+	
+
+
 	}
 
 	/*----------------------------------------

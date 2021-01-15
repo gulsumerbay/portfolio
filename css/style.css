@@ -1355,6 +1355,7 @@ figure:hover figcaption, figure:focus figcaption {
   box-shadow: none;
   border: none;
   width: 100%;
+  /* display: none; */
 }
 
 .probootstrap-home-search .probootstrap-field-group .probootstrap-fields input:active, .probootstrap-home-search .probootstrap-field-group .probootstrap-fields input:focus, .probootstrap-home-search .probootstrap-field-group .probootstrap-fields select:active, .probootstrap-home-search .probootstrap-field-group .probootstrap-fields select:focus {
