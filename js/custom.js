@@ -8,6 +8,10 @@ jQuery(document).ready(function() {
 			right: '120px'
 			}
 		);
+		$('.btn-cv').css({
+			width: '30%'
+			}
+		);
 	}
 	// Your custom js code goes here.
 
