@@ -1,1 +1,12 @@
 /* Your custom css code goes here */
+m-l{
+    margin-right: 10px;
+}
+left-nav{
+    position: 'absolute';
+    left: '0px';
+}
+
+a, .left-nav a {
+    margin-right: 15px;
+  }
