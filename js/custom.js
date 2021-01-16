@@ -8,10 +8,12 @@ jQuery(document).ready(function() {
 			right: '120px'
 			}
 		);
-		$('.btn-cv').css({
-			width: '30%'
-			}
-		);
+
+		$('.btn-cv.w40').css({
+			width: '40%'
+			});
+
+		$('.h-center').removeClass('width90');
 	}
 	// Your custom js code goes here.
 
@@ -36,6 +38,12 @@ jQuery(document).ready(function() {
 			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
 		}
 	};
+	
+	$('.btn-cv').css({
+		'margin-right': 'auto',
+		'margin-left': 'auto',
+		display: 'block'
+		});
 $( "a" ).click(function() {
 	$('.probootstrap-burger-menu').removeClass('active');
 		$('body').removeClass('show');
