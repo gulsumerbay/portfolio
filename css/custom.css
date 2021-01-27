@@ -1,0 +1,35 @@
+/* Your custom css code goes here */
+m-l{
+    margin-right: 10px;
+}
+left-nav{
+    position: 'absolute';
+    left: '0px';
+}
+
+a, .left-nav a {
+    margin-right: 15px;
+  }
+btn-cv{
+    width: 78%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.h-center{
+    display: block;
+     margin-right: auto;
+      margin-left: auto;
+}
+width70{
+    width:70%;
+}
+width90{
+    width:90%;
+}
+.h-center.width70  {
+    width:70%;
+}
+.h-center.width90  {
+    width:90%;
+}
